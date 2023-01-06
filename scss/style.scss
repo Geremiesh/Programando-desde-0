@@ -60,17 +60,15 @@
     }
 }
 
-.container {
+.contenedorCard {
     display: flex;
-    justify-content: center;
-    height: 50vh;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .card {
     height: 400px;
     margin: 50px;
-    box-shadow: 5px 5px 20px #FFC6D3;
+    box-shadow: 5px 5px 20px #3A4F7A;
     overflow: hidden;
 
     img {
@@ -82,17 +80,21 @@
     }
 }
 
-.intro {
-    padding: 6px;
-    box-sizing: border-box;
+.card-body {
+    background-color: #3A4F7A;
+    font-size: 15px;
+    text-align: center;
+
+    h5 {
+        color: #FFC6D3;
+    }
+
+    p {
+        color: #FFC6D3;
+    }
 }
 
-h1,
-p {
-    font-size: 20px;
-    text-align: center;
-    color: #3A4F7A;
-}
+
 
 .footer {
     text-align: center;
