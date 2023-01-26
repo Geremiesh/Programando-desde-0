@@ -61,20 +61,20 @@
 }
 
 .contenedorCard {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,
-            minmax(150px,
-                1fr));
-    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
-    height: 400px;
-    margin: 50px;
+    max-width: 17rem;
+    max-height: auto;
+    margin: 5px;
     box-shadow: 5px 5px 20px #3A4F7A;
     overflow: hidden;
 
     img {
+        width: 17rem;
         border-radius: 3px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
