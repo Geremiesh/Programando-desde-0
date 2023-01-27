@@ -94,6 +94,24 @@
     }
 }
 
+.contenedorLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+
+    p {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+}
+
+.logosPequeños {
+    height: 110px;
+
+}
+
 .footer {
     text-align: center;
     align-items: center;
