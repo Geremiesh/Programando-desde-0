@@ -5,10 +5,7 @@
 
 .descuentoInicio {
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 15px;
+  font-size: 12px;
   padding: 5px;
   background-color: #3A4F7A;
   color: #FFC6D3;
@@ -17,9 +14,12 @@
   font-family: 'Roboto Slab', serif;
 }
 
-.navBar {
-  text-align: center;
-  margin-top: 10px;
+header {
+  background-color: #FFC6D3;
+}
+
+.imgLogo {
+  height: 80px;
 }
 
 .navBar ul {
@@ -29,6 +29,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 50px;
 }
 
 .navBar li {
@@ -44,14 +48,6 @@
 .navBar li:hover {
   color: black;
   font-weight: bold;
-}
-
-.imgBanner {
-  display: block;
-  margin: auto;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .textoPrincipal {
