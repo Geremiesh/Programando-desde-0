@@ -104,13 +104,62 @@
     p {
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
+        color: #E38B29;
     }
 }
 
 .logosPequeños {
     height: 110px;
-
 }
+
+.logosPequeños:hover {
+    height: 130px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.tiendaOnline {
+    background-color: #FFD8A9;
+
+    h1 {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        padding-top: 50px;
+    }
+}
+
+.contenedorCajas {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+
+    img {
+        height: 300px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+
+    li ul {
+        display: none;
+    }
+
+    li:hover ul {
+        display: block;
+    }
+}
+
 
 .footer {
     text-align: center;
