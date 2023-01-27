@@ -14,10 +14,6 @@
   font-family: 'Roboto Slab', serif;
 }
 
-header {
-  background-color: #FFC6D3;
-}
-
 .imgLogo {
   height: 80px;
 }
@@ -33,6 +29,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   max-height: 50px;
+  margin-bottom: 0;
+  padding-bottom: 8px;
 }
 
 .navBar li {
