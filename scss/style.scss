@@ -44,17 +44,16 @@
     font-weight: bold;
 }
 
-
 .textoPrincipal {
-    text-align: center;
-    width: 1000px;
-    display: block;
-    margin: auto;
-    color: #3A4F7A;
-    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
 
     h1 {
-        margin: 10px;
+        color: #3A4F7A;
+        font-size: 19px;
+        font-family: 'Roboto Slab', serif;
+        width: 600px;
+        padding: 30px;
     }
 }
 
