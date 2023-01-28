@@ -155,6 +155,70 @@
     }
 }
 
+.secFormulario {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fbf6f0;
+}
+
+.formulario {
+    width: 400px;
+    background-color: #E38B29;
+    padding: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+
+    h1 {
+        font-size: 22px;
+
+    }
+
+    .controls {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+    }
+
+    .botons {
+        width: 100%;
+        border: none;
+        padding: 7px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+.formuDetalle {
+
+    div {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    img {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+    }
+}
 
 .footer {
     text-align: center;
