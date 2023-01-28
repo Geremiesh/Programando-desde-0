@@ -141,16 +141,18 @@
 }
 
 .contenedorCajas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 60px;
+  display: -ms-grid;
+  display: grid;
+  gap: 5rem;
+  grid-auto-rows: 18rem;
+  -ms-grid-columns: (minmax(22rem, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  justify-items: center;
+  padding: 3rem;
 }
 
 .contenedorCajas img {
-  height: 300px;
+  height: 250px;
 }
 
 .contenedorCajas li {
