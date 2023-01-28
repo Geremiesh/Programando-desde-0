@@ -132,15 +132,6 @@
   height: 110px;
 }
 
-.logosPequeños:hover {
-  height: 130px;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-}
-
 .tiendaOnline {
   background-color: #FFD8A9;
 }
@@ -169,10 +160,10 @@
 }
 
 .contenedorCajas a {
-  text-decoration: none;
   color: black;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .contenedorCajas li ul {
