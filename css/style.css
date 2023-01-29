@@ -57,6 +57,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #FDEEDC;
 }
 
 .textoPrincipal h1 {
@@ -65,6 +69,10 @@
   font-family: 'Roboto Slab', serif;
   width: 600px;
   padding: 30px;
+}
+
+.textoPrincipal img {
+  height: 250px;
 }
 
 .contenedorCard {
