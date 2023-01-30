@@ -60,19 +60,16 @@
   padding: 50px;
   margin-top: 20px;
   margin-bottom: 40px;
-  background-color: #FDEEDC;
 }
 
 .textoPrincipal h1 {
   color: #E38B29;
   font-size: 19px;
   font-family: 'Roboto Slab', serif;
-  width: 600px;
+  width: 700px;
   padding: 30px;
-}
-
-.textoPrincipal img {
-  height: 250px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .contenedorCard {
