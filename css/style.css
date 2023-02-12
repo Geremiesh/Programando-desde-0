@@ -10,8 +10,6 @@
   padding: 5px;
   background-color: #F1A661;
   color: #FDEEDC;
-  position: -webkit-sticky;
-  position: sticky;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -117,7 +115,7 @@
 .contenedorLogos {
   display: -ms-grid;
   display: grid;
-  gap: 5rem;
+  gap: 2rem;
   grid-auto-rows: 10rem;
   -ms-grid-columns: (minmax(15rem, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -255,6 +253,27 @@
   color: #FDEEDC;
   position: -webkit-sticky;
   position: sticky;
+  font-family: 'Roboto Slab', serif;
+}
+
+.enviosPais {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #FFD8A9;
+  color: #E38B29;
+  font-family: 'Roboto Slab', serif;
+}
+
+.botonCarrito {
+  width: 100%;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #FDEEDC;
+  color: #E38B29;
+  border: none;
   font-family: 'Roboto Slab', serif;
 }
 /*# sourceMappingURL=style.css.map */
