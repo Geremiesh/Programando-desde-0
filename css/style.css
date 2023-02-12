@@ -276,4 +276,20 @@
   border: none;
   font-family: 'Roboto Slab', serif;
 }
+
+.suscribirse {
+  background-color: #FDEEDC;
+  padding: 20px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
